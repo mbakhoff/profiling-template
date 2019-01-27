@@ -70,7 +70,7 @@ VM options are command line arguments to the JVM itself.
 If you would start the application from command line, then it would look like `java -Xlog:gc chess.App`.
 
 You can read more about the available options here:
-https://docs.oracle.com/javase/9/tools/java.htm
+https://docs.oracle.com/en/java/javase/11/tools/java.html
 
 Restart the application and you should see the following lines appearing:
 ```
@@ -102,7 +102,7 @@ How long does it take for the application to explode?
 Notice how the garbage collection keeps running more often as the memory fills up.
 Running low on memory is one common cause for performance issues in java applications.
 All the time spent on collecting garbage is time not spent on running the application.
-The fix is to change the application to use less memory or have the application reserve more memory by specifying `-Xmx`.
+The solution is to fix the code to waste less memory or have the application reserve more memory by specifying `-Xmx`.
 
 ## Heap dumps and hunting memory leaks
 
