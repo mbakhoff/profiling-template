@@ -93,7 +93,7 @@ Running the regular garbage collection didn't free up enough memory so the JVM d
 
 https://plumbr.io/java-garbage-collection-handbook is a really good handbook on how the GC works and how to decipher its logs.
 
-Next, let's set setting some limits to our application's memory usage.
+Next, let's try setting some limits to our application's memory usage.
 Add the following VM option to the chess app: `-Xmx80M` (keep the GC logging).
 This allows the application to use at most 80MB of memory.
 Restart the application and check the GC logs.
